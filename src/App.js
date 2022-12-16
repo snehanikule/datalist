@@ -10,6 +10,7 @@ function App() {
      <h2>{count}</h2>
      <button onClick={()=>setCount(count+1)}>inc</button>
      <button onClick={()=>setCount(count-1)}>dec</button>
+     <button onClick={()=>setCount(0)}>reset</button>
     </div>
   );
 }
